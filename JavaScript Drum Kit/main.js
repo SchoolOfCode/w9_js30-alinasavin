@@ -10,5 +10,5 @@ const key = document.querySelector(`.key[data-key= "${e.keyCode}"]`);
 if(!audio) return; // stop the function from running if there is no audio found 
 audio.currentTime = 0; // rewind to the start
 audio.play();
-console.log(key);
+// console.log(key);
 });
